@@ -1,6 +1,6 @@
 class Pessoa: 
-    def __init__(self, nome, idade):
-        self.nome = nome
+    def __init__(self, nome, idade):   # __init__ é o construtor, chamado quando o objeto é criado
+        self.nome = nome  # self referencia a própria instancia
         self.idade = idade
 
     def apresentar(self):
